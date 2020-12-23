@@ -1,0 +1,29 @@
+# Describes the format for available tracktry services
+
+add_tracking:
+  description: Add new tracking to TrackTry.
+  fields:
+    tracking_number:
+      description: Tracking number for the new tracking
+      example: "123456789"
+    carrier_code:
+      description: Carrier Code (carrier) of the new tracking
+      example: "USPS"
+    title:
+      description: A custom title for the new tracking
+      example: "Laptop"
+    comment:
+      description: A custom comment for the new tracking
+      example: "A new laptop for work"
+    
+    
+
+remove_tracking:
+  description: Remove a tracking from Tracktry.
+  fields:
+    tracking_number:
+      description: Tracking number of the tracking to remove
+      example: "123456789"
+    carrier_code:
+      description: Carrier Code (carrier) of the tracking to remove
+      example: "USPS"
