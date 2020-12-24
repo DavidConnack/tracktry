@@ -155,15 +155,6 @@ class TrackTrySensor(Entity):
         """Get the latest data from the TrackTry API."""
         await self.tracktry.get_trackings()
 
-        """ if not self.tracktry.meta:
-            _LOGGER.error("Unknown errors when querying")
-            return
-        if self.aftership.meta["code"] != HTTP_OK:
-            _LOGGER.error(
-                "Errors when querying AfterShip. %s", str(self.aftership.meta)
-            )
-            return """
-
         status_to_ignore = {"delivered"}
         status_counts = {}
         trackings = []
