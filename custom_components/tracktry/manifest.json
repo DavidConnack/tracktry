@@ -5,6 +5,6 @@
   "documentation": "https://github.com/user/my_component/",
   "domain": "tracktry",
   "name": "Tracktry",
-  "requirements": ["pytracktry==0.1"]
+  "requirements": ["pytracktry==0.1"],
   "version": "1.0"
 }
