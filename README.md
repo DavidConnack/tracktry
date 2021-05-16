@@ -13,3 +13,8 @@ With HACS : go in HACS, click on Integrations, click on the three little dots at
 
 Then go to the Integrations tab of HACS, and install the "TrackTry" integration.
  
+Add to configuration.yml
+
+sensor:
+    - platform: tracktry
+      api_key: <key>
