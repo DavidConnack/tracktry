@@ -6,4 +6,5 @@
   "domain": "tracktry",
   "name": "Tracktry",
   "requirements": ["pytracktry==0.1"]
+  "version": "1.0"
 }
